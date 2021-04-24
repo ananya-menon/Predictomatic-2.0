@@ -22,9 +22,9 @@ def predict():
     print (output)
     
     if output == 0:
-        return render_template('PCOS.html', prediction_text= 'PCOS : No')
+        return render_template('PCOS.html', prediction_text= 'Yaaaaaaay! You are safe from PCOS')
     else:
-        return render_template('PCOS.html', prediction_text= 'PCOS : Yes')
+        return render_template('PCOS.html', prediction_text= 'Opps! Eat healthy. There is a chance of PCOS')
 
 
 if __name__ == "__main__":
